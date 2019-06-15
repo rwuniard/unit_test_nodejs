@@ -15,5 +15,6 @@ Steps to execute the unit test:
 - Type npm run dev
 - Go to Terminal menu and select Terminal split
 - Type npm run test
+
 You will see the test result.
 
