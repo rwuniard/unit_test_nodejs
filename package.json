@@ -1,0 +1,34 @@
+{
+  "name": "unit_test_nodejs",
+  "version": "1.0.0",
+  "description": "First unit test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwuniard/unit_test_nodejs.git"
+  },
+  "keywords": [
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Ronson Wuniardy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwuniard/unit_test_nodejs/issues"
+  },
+  "homepage": "https://github.com/rwuniard/unit_test_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  }
+}
